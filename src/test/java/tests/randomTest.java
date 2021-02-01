@@ -10,14 +10,12 @@ import static com.codeborne.selenide.Selectors.byClassName;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-class googleTests {
-
+public class randomTest {
 
     @Test
     void siteExists() {
 
-        open("https://www.google.com/");
+        open("https://www.mail.ru/");
         $("html").shouldHave(text("Почта"));
     }
-
 }
